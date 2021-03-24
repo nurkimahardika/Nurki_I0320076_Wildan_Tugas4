@@ -1,5 +1,5 @@
 #berat_max = 50 lbs, 1 lbs = 0,45 kg
-berat_max = 50*0.45
+berat_max = 50 * 0.45
 print('Berat maksimum dalam kg adalah ',berat_max, 'kg')
 soalA = 110
 soalB = 49
