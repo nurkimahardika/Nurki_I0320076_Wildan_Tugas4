@@ -8,4 +8,4 @@ if angka[0] >= angka[1]:
 elif angka[1] <= angka[0]:
       print(f'Nilai angka pertama akan mendekati angka kedua jika dikalikan dengan {int(angka[1]) // int(angka[0])}')
 else :
-      print(' ')
+      print('  ')
