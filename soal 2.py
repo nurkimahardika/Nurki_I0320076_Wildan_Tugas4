@@ -1,7 +1,11 @@
-#Implementasi program floor
-Angka1 = float(input('Masukkan Angka yang akan dibagi: '))
-Angka2 = float(input('Masukkan Angka pembagi: '))
 
-hasil = Angka1 // Angka2
-print('Angka', Angka1, 'jika dibagi dengan angka', Angka2, 'akan menghasilkan pembagian terhadap', Angka2,
-      'sebanyak', hasil, 'kali')
+dua_angka = input('Tulis 2 angka yang dipisah oleh spasi antara keduanya!=')
+angka = dua_angka.split(' ')
+
+print(angka)
+if angka[0] >= angka[1]:
+      print(f'Nilai angka kedua akan mendekati angka pertama jika dikalikan dengan {int(angka[0]) // int(angka[1])}')
+elif angka[1] <= angka[0]:
+      print(f'Nilai angka pertama akan mendekati angka kedua jika dikalikan dengan {int(angka[1]) // int(angka[0])}')
+else :
+      print(' ')
